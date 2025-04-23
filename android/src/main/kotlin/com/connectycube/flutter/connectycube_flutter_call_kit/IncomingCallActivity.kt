@@ -166,11 +166,11 @@ class IncomingCallActivity : Activity() {
         val callSubTitleTxt: TextView =
             findViewById(resources.getIdentifier("call_type_txt", "id", packageName))
         callSubTitleTxt.text =
-            String.format(CALL_TYPE_PLACEHOLDER, if (callType == 1) "Video" else "Audio")
+            String.format(CALL_TYPE_PLACEHOLDER, if (callType == 1) "Accept" else "Accept")
 
         val callAcceptButton: ImageView =
             findViewById(resources.getIdentifier("start_call_btn", "id", packageName))
-        val acceptButtonIconName = if (callType == 1) "ic_video_call_start" else "ic_call_start"
+        val acceptButtonIconName = if (callType == 1) "" else ""
         callAcceptButton.setImageResource(
             resources.getIdentifier(
                 acceptButtonIconName,

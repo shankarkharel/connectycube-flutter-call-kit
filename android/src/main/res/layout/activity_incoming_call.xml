@@ -53,7 +53,7 @@
         android:shadowRadius="4"
         android:textColor="#FBFBFB"
         android:textSize="18sp"
-        tools:text="Incoming audio call" />
+        tools:text="Incoming Ride Request" />
 
     <LinearLayout
         android:layout_width="match_parent"
